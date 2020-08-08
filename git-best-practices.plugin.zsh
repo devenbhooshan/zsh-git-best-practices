@@ -4,7 +4,7 @@ __GIT_BEST_PRACTICES_DIR="${0:A:h}"
 
 
 git_warn() {
-  if [ $GIT_CHANGED -ge 0 ]; then
+  if [ $GIT_CHANGED -ge 1 ]; then
     echo "tum chutyiye ho "
   fi
 
