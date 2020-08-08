@@ -1,8 +1,8 @@
-## git-best-practises
+## zsh-git-best-practises
 
-A oh-my-gosh plugin to encourage best git practises. Currently it
+A zsh prompt to encourage best practises of git. Currently it
 encourages you to commit frequently by showing a message on the command
-prompt
+prompt when it sees any uncommited changes
 
 ### setup
 - clone this repo under `path/to/custom/plugins`
@@ -16,5 +16,3 @@ prompt
 
 - currently the message is displayed whenever there are some uncommited changes. you can update this condition in `git-best-practices.plugin.zsh` 
 - you can update the message under `git-best-practices.plugin.zsh` file
-
-
