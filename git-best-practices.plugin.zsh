@@ -1,15 +1,10 @@
 # ZSH Git Prompt Plugin from:
-# https://github.com/olivierverdier/zsh-git-prompt
 __GIT_BEST_PRACTICES_DIR="${0:A:h}"
 
 
 git_warn() {
-  if [ $GIT_CHANGED -ge 1 ]; then
-    echo "tum chutyiye ho "
-  fi
-
-  if [ $GIT_CHANGED -le 0 ]; then
-    echo "tum sahi ho "
+  if [ "$GIT_CHANGED" -ge 1 ] || [ "$GIT_STAGED" -ge 1 ]; then
+    echo "%{$fg_bold[red]%}Don't forget to commit frequently"
   fi
 }
 
@@ -24,3 +19,5 @@ function precmd_update_git_status() {
 }
 autoload -U add-zsh-hook
 add-zsh-hook precmd precmd_update_git_status
+add-zsh-hook preexec precmd_update_git_status
+add-zsh-hook chpwd precmd_update_git_status
