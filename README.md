@@ -11,8 +11,11 @@ prompt when it sees any uncommited changes. [Here](https://devenbhooshan.wordpre
   `PS1`. For example for *af-magic* theme we updated PS1 in `af-magic.zsh-theme` to `PS1='$FG[237]${(l.$(afmagic_dashes)..-.)}%{$reset_color%}$(git_warn)`
 - don't forget to source your `.zshrc`
 
-
 ### notes
 
 - currently the message is displayed whenever there are some uncommited changes. you can update this condition in `git-best-practices.plugin.zsh` 
 - you can update the message under `git-best-practices.plugin.zsh` file
+
+
+### credits
+- https://github.com/olivierverdier/zsh-git-prompt
