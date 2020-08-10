@@ -1,6 +1,6 @@
 ## zsh-git-best-practices
 
-A zsh prompt to encourage best practises of git. Currently it
+A zsh prompt to encourage best practices of git. Currently it
 encourages you to commit frequently by showing a message on the command
 prompt when it sees any uncommited changes. [Here](https://devenbhooshan.wordpress.com/2020/08/08/why-should-i-commit-frequently/) is the blog post explaining why commiting frequenty is important. 
 
