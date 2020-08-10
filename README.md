@@ -4,6 +4,8 @@ A zsh prompt to encourage best practises of git. Currently it
 encourages you to commit frequently by showing a message on the command
 prompt when it sees any uncommited changes. [Here](https://devenbhooshan.wordpress.com/2020/08/08/why-should-i-commit-frequently/) is the blog post explaining why commiting frequenty is important. 
 
+See the image below – the plugin is showing `Don’t forget to commit frequently` in the command prompt in red color.
+
 ![](https://raw.githubusercontent.com/devenbhooshan/zsh-git-best-practises/master/Screenshot%202020-08-09%20at%203.04.02%20AM.png)
 
 ### setup
