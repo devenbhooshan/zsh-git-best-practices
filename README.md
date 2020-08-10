@@ -17,8 +17,8 @@ See the image below – the plugin is showing `Don’t forget to commit frequent
 
 ### notes
 
-- currently the message is displayed whenever there are some uncommited changes. you can update this condition in `git-best-practices.plugin.zsh` 
-- you can update the message to be displayed under `git-best-practices.plugin.zsh` file
+- currently the message is displayed whenever there are some uncommited changes. you can update this condition in `zsh-git-best-practices.plugin.zsh` 
+- you can update the message to be displayed under `zsh-git-best-practices.plugin.zsh` file
 
 
 ### credits
