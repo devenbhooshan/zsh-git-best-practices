@@ -1,4 +1,4 @@
-## zsh-git-best-practises
+## zsh-git-best-practices
 
 A zsh prompt to encourage best practises of git. Currently it
 encourages you to commit frequently by showing a message on the command
